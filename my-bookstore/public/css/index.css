@@ -1,0 +1,49 @@
+
+body{
+    margin: 15px;
+}
+.image-container{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    width: 300px;
+    height: 200px;
+    border: 2px solid rgb(212, 212, 212);
+}
+
+img{
+    max-width: 100%;
+     height: auto;
+}
+
+a{
+  text-decoration: none;
+  color: blue;
+}
+
+.add_button {
+    margin-left: 50px;
+    margin-top: 20px;
+    padding: 8px 16px;
+    height: 40px;
+    width: 130px;
+    color: rgb(133, 133, 133);
+    border: 2px solid rgb(201, 201, 201);
+    border-radius: 5px;
+    display: flex;          /* Enables Flexbox for alignment */
+    justify-content: center; /* Horizontally centers content */
+    align-items: center;    /* Vertically centers content */
+    text-decoration: none;  /* Removes underline if applied to <a> */
+    transition: all 0.3s;   /* Smooth hover effect */
+}
+
+/* Optional: Hover effect */
+.add_button:hover {
+    background: rgb(240, 240, 240);
+    border-color: rgb(170, 170, 170);
+    color: rgb(100, 100, 100);
+}
+
+.outer-wrapper{
+    display: flex;
+    justify-content: 1fr 1fr 1fr;
+}
